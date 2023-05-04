@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './Button';
 
 function App() {
   return (
@@ -17,6 +18,12 @@ function App() {
         >
           Learn React
         </a>
+        <Button
+          id={10}
+          style="btn_Style_Venta_Per"
+          link={123456}
+          text="Contactarme"
+        />
       </header>
     </div>
   );
